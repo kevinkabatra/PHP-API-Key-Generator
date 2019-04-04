@@ -46,7 +46,7 @@
      * @return int Non-cryptographically generated random number.
      */
     function findRandom() {
-        $mRandom = rand(48, 122);
+        $mRandom = rand(12, 122);
         return $mRandom;
     }
     
